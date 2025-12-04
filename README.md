@@ -24,18 +24,21 @@
 # Setup Instructions
 
 1. Clone this repository
-   git clone https://github.com/gamzefidan/productivity-assistant.git
 
-2. Navigate to the project folder  
-   cd productivity-assistant
+   - git clone https://github.com/gamzefidan/productivity-assistant.git
+
+2. Navigate to the project folder
+
+   - cd productivity-assistant
 
 3. Install dependencies
-   npm install
+
+   - npm install
 
 4. Run the app
-   npm start
+   - npm start
 
 # Author
 
-Developed by Gamze Fidan
-junior Frontend Developer/UX Researcher
+- Developed by Gamze Fidan
+  -junior Frontend Developer/UX Researcher
