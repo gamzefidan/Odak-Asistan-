@@ -41,4 +41,4 @@
 # Author
 
 - Developed by Gamze Fidan
-  -junior Frontend Developer/UX Researcher
+  - junior Frontend Developer/UX Researcher
