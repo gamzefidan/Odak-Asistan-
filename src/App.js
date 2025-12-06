@@ -39,15 +39,31 @@ function App() {
       <h1 className="app-title">Odak Asistanı</h1>
       <p className="app-subtitle">Planla · Odaklan · Gelişimini Gör</p>
 
-      <TaskForm onAddTask={handleAddTask} />
-      <TaskList
-        tasks={tasks}
-        onToggleComplete={handleToggleComplete}
-        onDeleteTask={handleDeleteTask}
-      />
-      <WeeklySummary tasks={tasks} />
-      <PomodoroTimer />
-      <SuggestionBox tasks={tasks} />
+      <div className="bento-grid">
+        <div className="bento-card pomodoro">
+          <PomodoroTimer />
+        </div>
+
+        <div className="bento-card tasks">
+          <TaskList
+            tasks={tasks}
+            onToggleComplete={handleToggleComplete}
+            onDeleteTask={handleDeleteTask}
+          />
+        </div>
+
+        <div className="bento-card form">
+          <TaskForm onAddTask={handleAddTask} />
+        </div>
+
+        <div className="bento-card weekly">
+          <WeeklySummary tasks={tasks} />
+        </div>
+
+        <div className="bento-card suggestion">
+          <SuggestionBox tasks={tasks} />
+        </div>
+      </div>
     </div>
   );
 }
